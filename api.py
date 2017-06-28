@@ -6,7 +6,7 @@ __author__='Yusong Xie'
 import json
 import urllib2
 import sys
-import getopt
+
 class zabbix_api():
     def __init__(self):
         self.url = "http://172.16.33.10/api_jsonrpc.php"
